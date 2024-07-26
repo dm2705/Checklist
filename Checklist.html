@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Checklist App</title>
+    <link rel="stylesheet" href="Checklist.css"> <!--connects to css file-->
+</head>
+<body>
+    <div class="container">
+        <div class="checklist-app">
+            <h2>Checklist <img src="images/icon.png" ></h2>
+            <div class="row">
+                <input class="input" type="text" id="input-bar" placeholder="Add your task">
+                <button class="button" button onclick="addTask()">Add</button> 
+                <!--addTask() is calling the js function to make the button work-->
+            </div>
+            <ul id="list-container">
+            </ul>
+        </div>
+     </div>
+<script src="script.js"></script> <!--connects to js file-->
+</body>
+</html>
